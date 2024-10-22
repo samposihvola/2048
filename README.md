@@ -2,6 +2,8 @@
 
 This is my rendition of the game 2048, originally created by Gabrielle Cirulli in 2014. 2048 is a game in which there is a 4x4 grid, and the player moves tiles using arrow keys (or swipes on mobile devices) to merge them. Tiles merge when they have the same value on a basis of x * 2. Once a player reaches the 2048 tile, the game is finished, but they can continue playing thereafter.
 
+![Screencap of the game](/2048-screencap.png)
+
 The chosen technologies were largely based on those I learned during the Full Stack Open course by The University of Helsinki: React + Vite for the app, Jest for unit tests, and Cypress for end-to-end tests.
 
 In addition, I also conducted a usability testing situation following Jacob Nielsen’s 10 heuristics. I recruited an external participant to conduct the following test cases:
