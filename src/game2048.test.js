@@ -5,7 +5,7 @@ import * as utils from './utils/addNumber';
 describe('Game2048 component', () => {
   test('initializes game grid correctly', () => {
     const { container } = render(<Game2048 />);
-		const cells = container.querySelectorAll('.gameBlock');
+    const cells = container.querySelectorAll('.gameBlock');
     expect(cells).toHaveLength(16); // 4x4 grid
   });
 
