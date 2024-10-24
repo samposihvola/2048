@@ -3,7 +3,7 @@ import Block from "./Block";
 const Board = ({ gameGrid }) => {
   return (
 		<div className="gameGrid">
-			{/* Mapping over each row in the gameGrid array */}
+			{/* Mapping over each row in the array */}
 			{gameGrid.map((row, rowIndex) => {
 				return (
 					<div className="gameRow" key={rowIndex}>
