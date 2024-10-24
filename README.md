@@ -32,6 +32,7 @@ This proved useful, since it gave me non-author biased information in the early 
 	- Top 10 players list
 	- Game could still be played without registration
 	- API tests with Postman?
+- CI/CD
 
 ## Instructions
 
