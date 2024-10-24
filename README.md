@@ -8,7 +8,7 @@ The main purpose of this project is to give me hands-on experience from modern d
 
 ## Usability Testing
 
-To ensure solid gameplay, I facilitated a usability testing situation following Jacob Nielsen’s 10 heuristics. I recruited an external participant to conduct the following test cases:
+To ensure solid gameplay, I conducted a usability testing situation following Jacob Nielsen’s 10 heuristics. I recruited an external participant to navigate through the following test cases:
 
 1. Navigate through the game interface and assess the intuitiveness of the controls.
 2. Evaluate the intuitiveness of game mechanics.
