@@ -10,14 +10,14 @@ import './index.css';
 
 const Game2048 = () => {
   const [gameGrid, setGameGrid] = useState([
-  	[0, 0, 0, 0],
-  	[0, 0, 0, 0],
-  	[0, 0, 0, 0],
-  	[0, 0, 0, 0]
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0]
   ]);
   
   useEffect(() => {
-  	initialize(); // Call initialize after the initial render
+    initialize(); // Call initialize after the initial render
   }, []); // Empty dependency array ensures this runs only once after the initial render
   
   const initialize = () => {
