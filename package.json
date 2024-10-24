@@ -15,7 +15,9 @@
   "dependencies": {
     "@testing-library/react": "^15.0.4",
     "@uidotdev/usehooks": "^2.4.1-experimental.1",
+    "dotenv": "^16.4.5",
     "lodash.clonedeep": "^4.5.0",
+    "mongoose": "^8.7.2",
     "react": "^0.0.0-experimental-0066e0b68-20240306",
     "react-dom": "^0.0.0-experimental-0066e0b68-20240306"
   },
