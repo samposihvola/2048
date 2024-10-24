@@ -4,7 +4,7 @@ This is my rendition of the game 2048, originally created by Gabrielle Cirulli i
 
 ![Screencap of the game](/2048-screencap.png)
 
-The chosen technologies were largely based on those I learned during the Full Stack Open course by The University of Helsinki: React + Vite for the app, Jest for unit tests, and Cypress for end-to-end tests.
+The main purpose of this project is to give me hands-on experience from modern day web development. React + Vite for the app, Jest for unit tests, and Cypress for end-to-end tests. I am currently planning on creating a backend with NodeJS and MongoDB. Check my todo list below for details!
 
 ## Usability Testing
 
@@ -27,7 +27,7 @@ This proved useful, since it gave me non-author biased information in the early 
 ## Todo
 
 - Backend with user registration
-	- MongoDB
+	- NodeJS & MongoDB
 	- Calculates points to the users profile
 	- Top 10 players list
 	- Game could still be played without registration
