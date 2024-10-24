@@ -16,7 +16,7 @@ describe('useSwipe function', () => {
   });
 
   test('dispatches swipeDown function for "ArrowDown" swipe', () => {
-		const gameGrid = [
+    const gameGrid = [
       [2, 0, 4, 8],
       [0, 8, 0, 16],
       [16, 32, 64, 128],
@@ -27,7 +27,7 @@ describe('useSwipe function', () => {
   });
 
   test('dispatches swipeLeft function for "ArrowLeft" swipe', () => {
-		const gameGrid = [
+    const gameGrid = [
       [2, 0, 4, 8],
       [0, 8, 0, 16],
       [16, 32, 64, 128],
@@ -38,7 +38,7 @@ describe('useSwipe function', () => {
   });
 
   test('dispatches swipeRight function for "ArrowRight" swipe', () => {
-		const gameGrid = [
+    const gameGrid = [
       [2, 0, 4, 8],
       [0, 8, 0, 16],
       [16, 32, 64, 128],
@@ -49,7 +49,7 @@ describe('useSwipe function', () => {
   });
 
   test('dispatches swipeUp function for "ArrowUp" swipe', () => {
-		const gameGrid = [
+    const gameGrid = [
       [2, 0, 4, 8],
       [0, 8, 0, 16],
       [16, 32, 64, 128],
