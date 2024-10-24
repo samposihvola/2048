@@ -9,18 +9,18 @@ import pointCalculation from './utils/pointCalculation';
 import './index.css';
 
 const Game2048 = () => {
-	const [gameGrid, setGameGrid] = useState([
-		[0, 0, 0, 0],
-		[0, 0, 0, 0],
-		[0, 0, 0, 0],
-		[0, 0, 0, 0]
-	]);
-
-	useEffect(() => {
-		initialize(); // Call initialize after the initial render
-	}, []); // Empty dependency array ensures this runs only once after the initial render
-
-	const initialize = () => {
+  const [gameGrid, setGameGrid] = useState([
+  	[0, 0, 0, 0],
+  	[0, 0, 0, 0],
+  	[0, 0, 0, 0],
+  	[0, 0, 0, 0]
+  ]);
+  
+  useEffect(() => {
+  	initialize(); // Call initialize after the initial render
+  }, []); // Empty dependency array ensures this runs only once after the initial render
+  
+  const initialize = () => {
     let newGrid = [
       [0, 0, 0, 0],
       [0, 0, 0, 0],
@@ -66,6 +66,6 @@ const Game2048 = () => {
       <Board gameGrid={gameGrid} />
     </div>
   );
-  };
+};
 
 export default Game2048;
