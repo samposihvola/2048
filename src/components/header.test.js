@@ -3,8 +3,8 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 import Header from '../components/Header';
 
-// Mocking the pointCalculation function
-jest.mock('../utils/pointCalculation', () => () => 500); // Mock to return 500 points
+// Mock the pointCalculation to return 500 points
+jest.mock('../utils/pointCalculation', () => () => 500);
 
 describe('Header component', () => {
   test('renders title and points correctly', () => {

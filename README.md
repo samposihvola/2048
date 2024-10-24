@@ -6,7 +6,9 @@ This is my rendition of the game 2048, originally created by Gabrielle Cirulli i
 
 The chosen technologies were largely based on those I learned during the Full Stack Open course by The University of Helsinki: React + Vite for the app, Jest for unit tests, and Cypress for end-to-end tests.
 
-In addition, I also conducted a usability testing situation following Jacob Nielsen’s 10 heuristics. I recruited an external participant to conduct the following test cases:
+## Usability testing
+
+To ensure solid gameplay, I conducted a usability testing situation following Jacob Nielsen’s 10 heuristics. I recruited an external participant to conduct the following test cases:
 
 1. Navigate through the game interface and assess the intuitiveness of the controls.
 2. Evaluate the intuitiveness of game mechanics.
@@ -22,9 +24,14 @@ after that.
 
 This proved useful, since it gave me non-author biased information in the early stages of development. Most of the results were concerned with UI: the lack of animations, tiles moving too fast, the lack of background in the tiles affecting how immersive the gameplay was. Additionally, one bug was found during the procedure, which had to do with how the tiles merged together.
 
-# Future plans
+# Todo
 
-I am planning on creating a backend with user registration using NodeJS & MongoDB. The game could still be played without registration but if you register, your points will go to database and you can see your top scores etc.
+- Backend with user registration
+	- MongoDB
+	- Calculates points to the users profile
+	- Top 10 players list
+	- Game could still be played without registration
+	- API tests with Postman?
 
 # Instructions
 
@@ -44,3 +51,14 @@ npm run dev
 
 Open browser and hit http://localhost:5173
 
+Run E2E tests
+
+```
+npm run cy:open
+```
+
+Run component tests
+
+```
+npm test
+```

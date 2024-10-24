@@ -11,7 +11,6 @@ describe('Gameplay', () => {
 	});
 
 	it('can make moves using arrow keys', () => {
-		// Define arrow key commands
 		const arrowKeys = ['upArrow', 'downArrow', 'leftArrow', 'rightArrow'];
 
 		// Iterate over arrow keys and trigger keydown event

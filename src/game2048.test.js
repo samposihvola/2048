@@ -13,7 +13,6 @@ describe('Game2048 component', () => {
     const addNumberSpy = jest.spyOn(utils, 'default');
     render(<Game2048 />);
 
-    // Check if the addNumber function is called twice
     expect(addNumberSpy).toHaveBeenCalledTimes(2);
   });
 
@@ -22,7 +21,6 @@ describe('Game2048 component', () => {
     const gameContainer = getByRole('heading');
 
     fireEvent.keyDown(gameContainer, { key: 'ArrowDown', code: 'ArrowDown' });
-    // Add assertions to check if the game grid has been updated correctly
   });
 
   test('adds and removes event listeners appropriately', () => {

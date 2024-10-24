@@ -4,7 +4,6 @@ import swipeLeft from '../swipes/swipeLeft';
 import swipeRight from '../swipes/swipeRight';
 import swipeUp from '../swipes/swipeUp';
 
-// Mock swipe functions
 jest.mock('../swipes/swipeDown');
 jest.mock('../swipes/swipeLeft');
 jest.mock('../swipes/swipeRight');
