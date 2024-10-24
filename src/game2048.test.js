@@ -9,7 +9,7 @@ describe('Game2048 component', () => {
     expect(cells).toHaveLength(16); // 4x4 grid
   });
 
-	test('two numbers are added to grid after initialization', () => {
+  test('two numbers are added to grid after initialization', () => {
     const addNumberSpy = jest.spyOn(utils, 'default');
     render(<Game2048 />);
 
