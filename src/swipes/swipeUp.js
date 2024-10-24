@@ -32,5 +32,4 @@ const swipeUp = (gameGrid) => {
   return newGrid;
 };
 
-
 export default swipeUp;

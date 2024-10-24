@@ -36,7 +36,4 @@ const swipeRight = (gameGrid) => {
 	return newGrid;
 };
 
-// This is a modification to change GitHub tab sizes 
-
-
 export default swipeRight;

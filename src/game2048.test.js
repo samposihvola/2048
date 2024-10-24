@@ -34,5 +34,3 @@ describe('Game2048 component', () => {
     expect(removeEventListenerSpy).toHaveBeenCalled();
   });
 });
-
-// This is a modification to change GitHub tab sizes 

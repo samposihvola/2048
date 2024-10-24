@@ -10,6 +10,4 @@ const Header = () => {
 	);
 };
 
-// This is a modification to change GitHub tab sizes 
-
 export default Header;

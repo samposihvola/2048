@@ -68,7 +68,4 @@ const Game2048 = () => {
 	);
 };
 
-// This is a modification to change GitHub tab sizes 
-
-
 export default Game2048;

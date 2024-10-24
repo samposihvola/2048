@@ -18,7 +18,4 @@ const useSwipe = (swipe, gameGrid) => {
 	}
 };
 
-// This is a modification to change GitHub tab sizes 
-
-
 export default useSwipe;
