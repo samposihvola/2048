@@ -10,17 +10,17 @@ The main purpose of this project is to give me hands-on experience from modern d
 
 To ensure solid gameplay, I conducted a usability testing situation following Jacob Nielsen’s 10 heuristics. I recruited an external participant to navigate through the following test cases:
 
-1. Navigate through the game interface and assess the intuitiveness of the controls.
-2. Evaluate the intuitiveness of game mechanics.
+1. Assess the intuitiveness of the game interface.
+2. Evaluate the intuitiveness of game mechanics and controls.
 3. Merge tiles and evaluate the responsiveness and accuracy of the mechanic.
 4. Evaluate the addictiveness of the game.
 5. Evaluate the UI after dark reader mode has been switched on.
 6. Get four (4) tiles into the same row and merge them.
-7. Get the game into a game-over situation and evaluate the situation.
-8. Update browser and see what happens.
+7. Get the game into a game-over situation. What happens?
+8. Update browser. What happens?
 9. Play the game for another 20 minutes and evaluate the overall feel of the UI
 after that.
-10. Try to get the highest score possible within the time frame
+10. Try to get the highest score possible within the time frame.
 
 This proved useful, since it gave me non-author biased information in the early stages of development. Most of the results were concerned with UI: the lack of animations, tiles moving too fast, the lack of background in the tiles affecting how immersive the gameplay was. Additionally, one bug was found during the procedure, which had to do with how the tiles merged together.
 
