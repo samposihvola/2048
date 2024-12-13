@@ -4,7 +4,7 @@ This is my rendition of the game 2048, originally created by Gabrielle Cirulli i
 
 ![Screencap of the game](/2048-screencap.png)
 
-The main purpose of this project is to give me hands-on experience from modern day web development. React + Vite for the app, Jest for unit tests, and Cypress for end-to-end tests. 
+With this project I wanted to get hands-on experience from modern day web development. React + Vite for the app, Jest for unit tests, and Cypress for end-to-end tests. 
 
 ## Usability Testing
 
