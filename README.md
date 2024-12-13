@@ -4,7 +4,7 @@ This is my rendition of the game 2048, originally created by Gabrielle Cirulli i
 
 ![Screencap of the game](/2048-screencap.png)
 
-The main purpose of this project is to give me hands-on experience from modern day web development. React + Vite for the app, Jest for unit tests, and Cypress for end-to-end tests. I am currently planning on creating a backend with NodeJS and MongoDB. Check my todo list below for details!
+The main purpose of this project is to give me hands-on experience from modern day web development. React + Vite for the app, Jest for unit tests, and Cypress for end-to-end tests. 
 
 ## Usability Testing
 
@@ -23,16 +23,6 @@ after that.
 10. Try to get the highest score possible within the time frame.
 
 This proved useful, since it gave me non-author biased information in the early stages of development. Most of the results were concerned with UI: the lack of animations, tiles moving too fast, the lack of background in the tiles affecting how immersive the gameplay was. Additionally, one bug was found during the procedure, which had to do with how the tiles merged together.
-
-## Todo
-
-- Backend with user registration
-	- NodeJS & MongoDB
-	- Calculates points to the users profile
-	- Top 10 players list
-	- Game could still be played without registration
-	- API tests with Postman?
-- CI/CD
 
 ## Instructions
 
